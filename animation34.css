@@ -1,0 +1,30 @@
+/* .box {
+  height: 200px;
+  width: 200px;
+
+  background-color: red;
+
+  transition: all 0.5s 1s linear;
+
+  animation: infinite 1s 4s linear rotate;
+}
+
+ .box:hover {
+  transform: skew(45deg);
+}  
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: scale(2);
+  }
+
+  50% {
+    transform: translate(200px, 0);
+  }
+
+  100% {
+    transform: skew();
+  }
+}    */

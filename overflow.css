@@ -1,0 +1,25 @@
+.text-parent {
+  height: 200px;
+  width: 400px;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: green;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 200px;
+}
+
+.img-parent {
+  height: 400px;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/2933/2933245.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}

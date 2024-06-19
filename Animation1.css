@@ -1,0 +1,25 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+
+  animation: moveCorner 4s 1s linear infinite;
+}
+
+@keyframes moveCorner {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(1150px, 0px);
+  }
+  50% {
+    transform: translate(1150px, 450px);
+  }
+  75% {
+    transform: translate(0px, 450px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

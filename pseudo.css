@@ -1,0 +1,48 @@
+h1 {
+  font-size: 30px;
+  color: black;
+}
+/* 
+h1:hover {
+  font-size: 50px;
+} */
+/* 
+h1:nth-child(1) {
+  color: red;
+} */
+
+input:focus {
+  outline-color: blue;
+}
+
+input:read-only {
+  background-color: brown;
+}
+
+input:out-of-range {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+h1 {
+  position: relative;
+}
+h1::before {
+  position: absolute;
+  content: " ";
+  width: 10px;
+  height: 5px;
+  bottom: 0;
+  background-color: blue;
+  transition: width 2s ease-in 1s;
+}
+h1:hover::before {
+  position: absolute;
+  content: " ";
+  width: 100px;
+  height: 5px;
+  bottom: 0;
+  background-color: blue;
+}
