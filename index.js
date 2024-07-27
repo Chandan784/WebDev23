@@ -64,8 +64,7 @@ let x;
 let is18 = true;
 let y = null;
 
-
-let studnets = ["chandan,:bujaya","babul"]
+let studnets = ["chandan,:bujaya", "babul"];
 //    let person = {
 
 //     name:"chandan",
@@ -74,22 +73,15 @@ let studnets = ["chandan,:bujaya","babul"]
 //    }
 console.log(typeof age);
 
-// charcter = 2bytes = 16Bit 
-// numner = 4bytes = 32bit 
-// bollean = 1bit 
-
+// charcter = 2bytes = 16Bit
+// numner = 4bytes = 32bit
+// bollean = 1bit
 
 // stack  heap
-    // x =2
-    // studentName(012)  "chandan"(012)
-    // studnets (111)           ["adn"](111)
+// x =2
+// studentName(012)  "chandan"(012)
+// studnets (111)           ["adn"](111)
 
+// let, var, const
 
-
-    // let, var, const
-
-let  = 2
-
-
-if
-
+let = 2;

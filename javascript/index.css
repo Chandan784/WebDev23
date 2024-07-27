@@ -1,0 +1,17 @@
+.bulb {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: salmon;
+}
+
+.box {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+}
+
+.myedittext {
+  font-size: "50px";
+  color: aqua;
+}
